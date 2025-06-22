@@ -7,6 +7,14 @@ let isDeleting = false;
 let textIndex = 0;  
 
 
+  const menuIcon = document.getElementById('menu-icon');
+  const navbar = document.querySelector('.navbar');
+
+  menuIcon.onclick = () => {
+    navbar.classList.toggle('active');
+  };
+
+
 function updateText() {
     const currentRole = roles[index];
 
