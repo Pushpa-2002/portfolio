@@ -90,10 +90,11 @@ body{
 
   .navbar {
     position: absolute;
-    top: 80px;
-    left: 410px;
+    top: 100%;
+    right: 0%;
     width: 200px;
-    background: rgba(0, 0, 0, 0.85);
+    color: black;
+    background: rgba(1, 92, 132, 0.63);
     backdrop-filter: blur(10px);
     display: none;
     flex-direction: column;
@@ -231,7 +232,7 @@ span {
 }
 
 /* Responsive mobile styles */
-@media (max-width: 768px) {
+@media (min-width:340px) and (max-width: 768px) {
     .home {
         flex-direction: column;
         gap: 5rem;
@@ -258,8 +259,8 @@ span {
     }
 
     .home-img img {
-        width: 40vw;
-        height: 45vh;
+        width: 30vw;
+        height: 25vh;
         top: 0;
     }
 
