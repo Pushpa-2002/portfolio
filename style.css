@@ -154,25 +154,22 @@ span {
     line-height: 1;
 }
 
-.home-img {
-    border-radius: 50%;
-}
 
 .home-img img {
     position: relative;
     top: 3rem;
-    width: 32vw;
-    border-radius: 50%;
-    box-shadow: 0 0 25px var(--main-color);
-    cursor: pointer;
+    height: 62vh;
+    width: 20vw;
+    border-radius: 10%;
+    box-shadow: 0 0 10px var(--main-color);
     transition: 0.4s ease-in-out;
 }
 
 .home-img img:hover {
     box-shadow: 
-        0 0 25px var(--main-color),
-        0 0 50px var(--main-color),
-        0 0 100px var(--main-color);
+        0 0 15px var(--main-color),
+        0 0 20px var(--main-color),
+        0 0 20px var(--main-color);
 }
 
 .home-content p {
@@ -261,7 +258,8 @@ span {
     }
 
     .home-img img {
-        width: 60vw;
+        width: 40vw;
+        height: 45vh;
         top: 0;
     }
 
